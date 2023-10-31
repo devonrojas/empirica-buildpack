@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-echo "Downloading empirica binary..."
-curl https://install.empirica.dev | sh -s
+echo "Testing empirica"
+empirica version
